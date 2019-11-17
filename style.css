@@ -1,23 +1,25 @@
 body {
-  font-family: Georgia;
-  font-size: 16px;
-  margin: 0 auto;   /* center content */
-  max-width: 800px; /* limit width */
-  line-height: 1.5;
-  padding-top: 32px;
-  padding-bottom: 32px;
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;   /* center content */
+    max-width: 800px; /* limit width */
+    line-height: 1.5;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background: #ebebed;
 }
 
 /* BEGIN (write your solution here) */
 p {
     display: block;
     margin-bottom: 12px;
+    color: #0a0a0a;
 }
 
 h3 {
     font-weight: 400;
     font-size: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -27,7 +29,8 @@ h2 {
 
 h1 {
     font-size: 36px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    color: #1c1c1c;
 }
 
 #header {
@@ -42,4 +45,16 @@ h1 {
     text-align: center;
 }
 
+.social {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+.social:hover {
+    color: #1c1c1c;
+}
+
+.background-block {
+
+}
 /* END */
